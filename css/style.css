@@ -1,0 +1,57 @@
+/* Container 00 */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container00{
+    color: white;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img-navbar{
+    max-width: 15rem;
+}
+
+.header{
+    font-size: 12px;
+}
+
+#link-nav-header{
+    color: white;
+}
+
+.container01{
+    background-image: url('../imagens/home/01.jpg');
+}
+
+.container02{
+    background-image: url('../imagens/home/03.jpg');
+}
+
+.container03{
+    background-image: url('../imagens/home/02.gif');
+}
+
+.container04{
+    background-image: url('../imagens/home/04.jpg');
+}
+
+.arrowDown {
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+  }
+
+.titlePadding{
+    padding-top: 12rem;
+}
+
+.footerPage{
+    min-height: 15vh;
+    background-color: black;
+}
