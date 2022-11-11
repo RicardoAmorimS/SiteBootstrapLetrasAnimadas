@@ -4,7 +4,9 @@
     margin: 0;
 }
 
+/* -------------------------- CSS UNIVERSAL ------------------------- */
 
+/* Formatação das div de cada seção da página */
 .container00{
     color: white;
     min-height: 100vh;
@@ -13,81 +15,82 @@
     background-repeat: no-repeat;
 }
 
-.container001{
-    color: white;
-    min-height: 85vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: black;
-}
-
+/* Imagem navbar */
 #img-navbar{
     max-width: 15rem;
     height: auto;
 }
 
+/* Header universal */
 .header{
     font-size: 12px;
 }
 
+/* Items Navbar */
 #link-nav-header{
     color: white;
 }
 
-.container01{
-    background-image: url('../imagens/home/01.jpg');
-}
-
-.container02{
-    background-image: url('../imagens/home/03.jpg');
-}
-
-.container03{
-    background-image: url('../imagens/home/02.gif');
-}
-
-.container04{
-    background-image: url('../imagens/home/04.jpg');
-}
-
-.container05{
-    background-image: url('../imagens/falcon9/01.jpg');  
-}
-
-.container05-01{
-    min-height: 100vh;
-}
-
-.container06{
-    background-image: url('../imagens/falcon9/02.jpg');
-}
-
-.container08{
-    background-image: url('../imagens/falcon9/08.jpg');
-}
-
-.arrowDown {
-    display: inline-block;
-    width: 90px;
-    margin-top: 5px;
-  }
-
-.titlePadding{
-    padding-top: 12rem;
-}
-
+/* Footer */
 .footerPage{
     min-height: 15vh;
     max-width: auto;
     background-color: black;
 }
 
+
+/* ----------------------- CSS index.html ----------------------- */
+
+/* Containers section page */
+.container01{
+    background-image: url('../imagens/home/01.jpg');
+}
+.container02{
+    background-image: url('../imagens/home/03.jpg');
+}
+.container03{
+    background-image: url('../imagens/home/02.gif');
+}
+.container04{
+    background-image: url('../imagens/home/04.jpg');
+}
+
+/* Arrow Down */
+.arrowDown {
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+}
+
+/* Espaçamento top divs de texto de cada container */
+.titlePadding{
+    padding-top: 12rem;
+}
+
+
+/* -------------------- CSS falcon9.html --------------------- */
+
+/* Containers section page */
+.container05{
+    background-image: url('../imagens/falcon9/01.jpg');  
+}
+.container05-01{
+    min-height: 100vh;
+}
+.container06{
+    background-image: url('../imagens/falcon9/02.jpg');
+}
+.container08{
+    background-image: url('../imagens/falcon9/08.jpg');
+}
+
+/* Titulos dos containes */
 .titleFalconPage{
     font-size: 90px;
     font-family: "Rubik", sans-serif;
 }
 
+/* texto dos containers */
 .textFalconPage{
     font-size: 20px;
     font-family: "Rubik", sans-serif;
@@ -97,16 +100,14 @@
     font-size: 25px;        
 }
 
+/* containers com conteudo textual */
 .containerTextFalcon{
     padding-top: 150px;
     padding-bottom: 50px;
-}
-
-.containerTextFalcon{
     max-width: 500px;
-    
 }
 
+/* Carousels container 05 */
 .carrossel01{
     background-image: url('../imagens/falcon9/03.jpg');
 }
@@ -123,6 +124,7 @@
     background-image: url('../imagens/falcon9/07.jpg');
 }
 
+/* Carrousels container 09 */
 .Container09Carousel01{
     background-image: url('../imagens/falcon9/09.jpg');
 }
@@ -142,24 +144,111 @@
     background-image: url('../imagens/falcon9/14.jpg');
 }
 
+/* span carrousels container 09 */
+.spanText{
+    margin-top: 90vh;   
+}
+
+/* texts tables */
 .textTableCarrosel{
     color: white;
 }
 
+/* divs com conteúdo textual */
 .containerTextCarrosel{
     margin-left: 15%;
     max-width: 50vh;
     margin-top: 27vh;   
 }
 
+/* Div com conteúdo textual Container08 */
 .containerTextContainer08{
     margin-left: 15%;
     max-width: 50vh;
     padding-top: 20vh; 
 }
 
-.spanText{
-    margin-top: 90vh;   
+/* Container 10 */
+.container10{
+    color: white;
+    min-height: 85vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+/* ----------------------------.CSS humanSpaceFligth ---------------------------- */
+.container11{
+    background-image: url('../imagens/humanFlight-20221027T010253Z-001/humanFlight/01.jpg');
+}
+.container12{
+    background-image: url('../imagens/humanFlight-20221027T010253Z-001/humanFlight/02.jpg');
+}
+.container13{
+    background-image: url('../imagens/humanFlight-20221027T010253Z-001/humanFlight/03.jpg');
+}
+.container14{
+    background-image: url('../imagens/humanFlight-20221027T010253Z-001/humanFlight/04.jpg');
+}
+.container15{
+    background-image: url('../imagens/humanFlight-20221027T010253Z-001/humanFlight/05.jpg');
+}
+
+
+
+.arrowDownContainer{
+    max-width: 150px;
+}
+
+.titleContainer{
+    font-size: 125px;    
+}
+
+.subtitleContainer{
+    font-size: 32px;    
+}
+
+.containerTextContainer12{
+    max-width: 400px;
+    margin-left: 55%;
+    padding-top: 250px;   
+   
+}
+
+.text-container12{
+    font-size: 20px;
+}
+
+.titleContainerDivText{
+    font-size: 55px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1320px) {
+    .titleContainer{
+        font-size: 110px;    
+    }
+}
+
+@media (max-width: 1190px) {
+    .titleContainer{
+        font-size: 90px;    
+    }
+}
+
+@media (max-width: 995px) {
+    .titleContainer{
+        font-size: 70px;    
+    }
+    
 }
 
 @media (max-width: 814px) {
@@ -168,7 +257,42 @@
         margin-left: 5vh;
         margin-right: 5vh;  
     }
+
+    .titleContainer{
+        font-size: 50px;    
+    }
+
+    .text-container12{
+        font-size: 15px;
+    }
+
+    .containerTextContainer12{
+        max-width: 55vh;
+        margin-left: 40%;  
+        padding-top: 150px;       
+    }
 }
+
+@media (max-width: 670px) {
+    .containerTextContainer12{       
+        margin-left: 30%;           
+    }
+}
+
+@media (max-width: 585px) {
+    .titleContainer{
+        font-size: 40px;        
+    }
+
+    .subtitleContainer{
+        font-size: 25px;         
+    }
+    .containerTextContainer12{       
+        margin-left: 10%;
+        margin-right: 10%;         
+    }
+}
+
 
 @media (max-width: 520px){
     .titleFalconPage{
@@ -184,15 +308,12 @@
         margin-left: 5%;
         margin-right: 5%;
     }
-    
-}
 
-@media (max-width: 371px){
-    .spanText{
-        margin-top: 83vh; 
-        margin-left: 2vh;
-        margin-right: 2vh;  
-    }
+    /* .titleContainer{
+        font-size: 35px;
+        text-align: center;
+    } */
+    
 }
 
 @media (max-width: 435px){
@@ -211,5 +332,19 @@
     #img-navbar{
         max-width: 11rem;        
     }
+
+    .titleContainerDivText{
+        font-size: 40px;
+    }
 }
    
+
+@media (max-width: 371px){
+    .spanText{
+        margin-top: 83vh; 
+        margin-left: 2vh;
+        margin-right: 2vh;  
+    }
+}
+
+
